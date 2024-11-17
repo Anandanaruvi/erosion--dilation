@@ -53,20 +53,21 @@ dilated_image_rgb = cv2.cvtColor(dilated_image, cv2.COLOR_BGR2RGB)
 # Plot the original, eroded, and dilated images using Matplotlib
 plt.figure(figsize=(10, 5))
 
-plt.subplot(1, 3, 1)
+
 plt.imshow(image_rgb)
 plt.title("Original Image")
 plt.axis("off")
 
 # Erode the image
 
-plt.subplot(1, 3, 2)
+
+
 plt.imshow(eroded_image_rgb)
 plt.title("Eroded Image")
 plt.axis("off")
 
 # Dilate the image
-plt.subplot(1, 3, 3)
+
 plt.imshow(dilated_image_rgb)
 plt.title("Dilated Image")
 plt.axis("off")
@@ -80,14 +81,16 @@ plt.axis("off")
 
 ### Display the input Image
 
-![image](https://github.com/user-attachments/assets/8403bfbd-ef86-4c25-99fa-b73ed21afb6a)
-
+![image](https://github.com/user-attachments/assets/86e9cd9f-ff4a-4909-bdee-a6a0c13fb35a)
 
 ### Display the Eroded Image
-![image](https://github.com/user-attachments/assets/4cf47db1-9058-45f5-8937-532b16e19b09)
+![image](https://github.com/user-attachments/assets/23e297bf-7d6e-44e3-9f93-773145727d42)
 
 ### Display the Dilated Image
-![image](https://github.com/user-attachments/assets/d19b44b6-3242-4420-b710-95d4117eeb02)
+![image](https://github.com/user-attachments/assets/3a2f2b20-5892-486d-96e3-f9f7a1c5b0bb)
 
-## Result.
+### RESULT:
 Thus the generated text image is eroded and dilated using python and OpenCV.
+
+
+
